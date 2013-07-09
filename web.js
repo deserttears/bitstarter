@@ -13,7 +13,7 @@ var content = content_buf.toString();
 
 app.get('/', function(request, response) {
   //response.send('Hello World 2!');
-  reponse.send(content);
+  response.send(content);
 });
 
 var port = process.env.PORT || 5000;
